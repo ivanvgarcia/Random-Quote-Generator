@@ -1,0 +1,51 @@
+body {
+	background-color: #ef5e91;
+	font-family: 'Oxygen', sans-serif;
+}
+
+h1{
+	font-weight: 300;
+}
+
+p {
+	font-size: 18px;
+}
+
+.quoteBox {
+	color: #b92864;
+	margin-top: 10rem;
+	background-color: white;
+	width: 700px;
+	height: 300px;
+	border: solid 3px #84ffff;
+	border-radius: 5px;
+}
+
+.quoteBox:hover {
+	border: solid 3px #84ffff;
+}
+
+.btn-default {
+	background-color: #84ffff;
+	border-color: black;
+	color: black;
+	transition: background-color .6s;
+}
+
+.btn-default:hover {
+	background-color: #4bcbcc;
+}
+
+.btn-default:active {
+	background-color: #4bcbcc;
+}
+
+#quoteDisplay {
+	color: black;
+	width: 70%;
+	margin: 0 auto;
+	border: solid 2px white;
+	margin-top: 20px;
+	padding: 20px;
+	height: 100px;
+	font-size: 1.5rem;
